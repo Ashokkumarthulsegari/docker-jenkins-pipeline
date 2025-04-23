@@ -1,2 +1,2 @@
-FROM ngnix
-COPY . /etc/nginx/nginx.conf/index.html
+FROM nginx
+COPY index.html /etc/nginx/nginx.conf/index.html
